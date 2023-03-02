@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+	 transition: 0.5s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  /**
+  width: 18.5cm;
+  height: 16.5cm;**/
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0px 0px 2px 3px #d1d1d1;
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: 18.5cm;
+    height: 16.5cm;
+  }
+}
+/**
+.span {
+  height: 20px;
+  width: 1100px;
+  background-color: blue;
+}**/
+
+.notifications {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.notif > p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
+  margin-left: 20px;
+}
+
+p, img {
+  display: inline-block;
+  margin: 0px
+}
+
+
+.markread > p {
+  color: #0072fa;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.markread > img {
+  padding-right: 10px;
+  padding-bottom: -5px;
+}
+
+.hr {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+.hr2 {
+  width: 145px;
+  border-bottom: 3px solid #0072fa;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+section:hover {
+  background-color: #f6f6f6;
+}
+
+.dot {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.dot > div {
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #0072fa;
+  border-radius: 50px;
+}
+
+.update > p:nth-of-type(1) {
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  color: #333333;
+}
+
+section:hover > .update > p:nth-of-type(1) {
+	color: #0072fa;
+	}
+
+.update > p:nth-of-type(2) {
+  font-size: 20px;
+  text-align: left;
+  color: grey;
+  margin-top: 15px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+hr {
+  border: 2px solid #f6f6f6;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.view {
+  color: #0072fa;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.hr3 {
+  display: flex;
+  width: 100%
+  padding-left: 20px;
+  justify-content: left;
+}
+
+.hr4 {
+  width: 225px;
+  border-bottom: 3px solid #0072fa;
+  margin-left: 20px;
+}
